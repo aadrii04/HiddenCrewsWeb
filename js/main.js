@@ -37,30 +37,15 @@
   });
 })();
 
-// var objeto = document.getElementById('objeto');
-// var imagenObjeto = document.getElementById('imagenObjeto');
-
-// document.addEventListener('mousemove', function(event) {
-//   var x = event.clientX;
-//   var y = event.clientY;
-
-//   objeto.style.left = (x - objeto.clientWidth / 2) + 'px';
-//   objeto.style.top = (y - objeto.clientHeight / 2) + 'px';
-
-// });
-
-// objeto.addEventListener('click', function(){
-//   imagenObjeto.src = 'img/cursor2.gif';
-
-//   setTimeout(function(){
-//     imagenObjeto.src = 'img/cursor1.gif';
-//   }, 1000);
-
-// });
-
 document.getElementById("buttonSlogan").addEventListener("click", function () {
-  console.log("funcoiona al dar click");
+  console.log("El botón de descargar funciona");
 });
+
+document
+  .getElementById("button-personajes")
+  .addEventListener("click", function () {
+    window.scrollTo("#personajes");
+  });
 
 // document.getElementById('khalilButton').addEventListener('click', function(){
 //   const destino = document.getElementById('21thStreet');
@@ -69,23 +54,23 @@ document.getElementById("buttonSlogan").addEventListener("click", function () {
 //   });
 // });
 
-document.getElementById("hiroshiButton").addEventListener("click", function () {
-  const destino = document.getElementById("yamiNoTora");
-  destino.scrollIntoView({
-    behavior: "smooth",
-  });
-});
+// document.getElementById("hiroshiButton").addEventListener("click", function () {
+//   const destino = document.getElementById("yamiNoTora");
+//   destino.scrollIntoView({
+//     behavior: "smooth",
+//   });
+// });
 
-document.getElementById("enzoButton").addEventListener("click", function () {
-  const destino = document.getElementById("ilFiglioDiEnzo");
-  destino.scrollIntoView({
-    behavior: "smooth",
-  });
-});
+// document.getElementById("enzoButton").addEventListener("click", function () {
+//   const destino = document.getElementById("ilFiglioDiEnzo");
+//   destino.scrollIntoView({
+//     behavior: "smooth",
+//   });
+// });
 
-document.getElementById("javierButton").addEventListener("click", function () {
-  const destino = document.getElementById("cartelDeSanJuan");
-  destino.scrollIntoView({
-    behavior: "smooth",
-  });
-});
+// document.getElementById("javierButton").addEventListener("click", function () {
+//   const destino = document.getElementById("cartelDeSanJuan");
+//   destino.scrollIntoView({
+//     behavior: "smooth",
+//   });
+// });
