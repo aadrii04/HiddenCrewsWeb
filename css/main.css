@@ -349,6 +349,7 @@ section {
   letter-spacing: -0.04em;
   color: var(--main-color);
   text-transform: uppercase;
+  width: 150%;
 }
 
 .-one {
@@ -358,10 +359,24 @@ section {
   transform: rotate(-25deg);
 }
 
-#yaminotorabanda {
+#yaminotorabanda,
+#figliodienzobanda,
+#carteldesanjuanbanda,
+#bandaamericana {
   position: absolute;
   z-index: -1;
+
+  /* PEDIR OPINION SOBRE ESTO TAMBIÉN PARA MAYOR LEGIBILIDAD */
+  opacity: 0.5;
 }
+
+#cartelDeSanJuan,
+#ilFiglioDiEnzo,
+#yamiNoTora,
+#thStreet {
+  margin-top: 100px;
+}
+
 .-for {
   transform: rotate(45deg);
 }
@@ -392,7 +407,7 @@ header {
 
   /* PEDIR OPINIONES */
 
-  /* font-size: 2vh*/ /* ESTO NO ES MUY SEGURO DE QUE LO DEJE AL FINAL */
+  /* font-size: 2vh; ESTO NO ES MUY SEGURO DE QUE LO DEJE AL FINAL */
   /* border: 0px solid #f03d0b79;
   border-radius: 5px;
   transition: border 0.3s ease-out; */

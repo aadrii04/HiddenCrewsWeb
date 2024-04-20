@@ -48,7 +48,7 @@ document
   });
 
 // document.getElementById('khalilButton').addEventListener('click', function(){
-//   const destino = document.getElementById('21thStreet');
+//   const destino = document.getElementById('thStreet');
 //   destino.scrollIntoView({
 //     behavior: 'smooth',
 //   });
