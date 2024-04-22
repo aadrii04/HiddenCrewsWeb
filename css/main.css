@@ -127,6 +127,10 @@ section {
   margin-bottom: 10%;
 }
 
+.divPortadaParrafo a {
+  text-decoration: none;
+}
+
 .botonSlogan {
   width: 100%;
 }
