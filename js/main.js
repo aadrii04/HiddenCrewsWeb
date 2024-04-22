@@ -47,30 +47,3 @@ document
     window.scrollTo("#personajes");
   });
 
-// document.getElementById('khalilButton').addEventListener('click', function(){
-//   const destino = document.getElementById('thStreet');
-//   destino.scrollIntoView({
-//     behavior: 'smooth',
-//   });
-// });
-
-// document.getElementById("hiroshiButton").addEventListener("click", function () {
-//   const destino = document.getElementById("yamiNoTora");
-//   destino.scrollIntoView({
-//     behavior: "smooth",
-//   });
-// });
-
-// document.getElementById("enzoButton").addEventListener("click", function () {
-//   const destino = document.getElementById("ilFiglioDiEnzo");
-//   destino.scrollIntoView({
-//     behavior: "smooth",
-//   });
-// });
-
-// document.getElementById("javierButton").addEventListener("click", function () {
-//   const destino = document.getElementById("cartelDeSanJuan");
-//   destino.scrollIntoView({
-//     behavior: "smooth",
-//   });
-// });
