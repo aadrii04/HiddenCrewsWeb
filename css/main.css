@@ -443,6 +443,17 @@ header {
   border: 2px solid rgb(255, 255, 255);
 }
 
+.nav-item-download {
+  background-color: var(--main-color);
+  border-radius: 20px;
+  border: 2px solid rgb(255, 255, 255);
+  transition: all 0.3s ease-out;
+}
+.nav-item-download:hover {
+  scale: 1.3;
+  transition: all 0.3s ease-out;
+}
+
 .about-section {
   align-items: center;
 }
