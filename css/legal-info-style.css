@@ -1,0 +1,22 @@
+:root {
+  --main-color: #f03e0b;
+}
+
+main {
+  background-color: rgb(78, 78, 78);
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.title {
+  font-size: 10rem;
+  letter-spacing: -0.04em;
+  color: var(--main-color);
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  color: var(--main-color);
+}

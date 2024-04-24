@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legal Info Document for HiddenCrews Website</title>
+    <link href="css/legal-info-style.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body data-scroll-container>
+    <main>
+      <section class="container">
+        <article class="row">
+          <div class="col-6">
+            <h1 class="title">legal</h1>
+          </div>
+        </article>
+        <article class="row">
+          <div class="col-6">
+            Aquí va el texto necesario para el apartado legal de la página web
+            de HiddenCrews
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+      <script>
+        const LocoScroll = new LocomotiveScroll({
+          el: document.querySelector("[data-scroll-container]"),
+          smooth: true,
+        });
+      </script>
+    </footer>
+  </body>
+</html>

@@ -115,9 +115,7 @@ section {
 }
 
 .portada {
-  /* font-size: 4rem !important; */
   font-size: 4rem;
-
   letter-spacing: -0.04em;
   color: var(--main-color);
 }
