@@ -414,10 +414,16 @@ header {
   border: 2px solid rgb(255, 255, 255);
 }
 
+/* .nav-item-near-to-download:hover ~ .nav-item-download{ PEDIR OPINION
+  
+  opacity: 0.5;
+} */
+
 .nav-item-download {
   background-color: var(--main-color);
   border-radius: 20px;
   border: 2px solid rgb(255, 255, 255);
+  opacity: 1;
   transition: all 0.3s ease-out;
 }
 .nav-item-download:hover {
