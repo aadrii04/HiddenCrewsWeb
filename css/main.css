@@ -58,35 +58,6 @@
 
 /* #### VIDEO LOGO #### */
 
-#main_content {
-  z-index: 2;
-  position: relative;
-  display: inline-block;
-
-  /* Vertical center */
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#main_content h1 {
-  text-transform: uppercase;
-  font-weight: 600;
-  font-family: "proxima-nova-condensed", Helvetica;
-  color: #fff;
-  font-size: 35px;
-}
-
-#main_content .sub_head {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 18px;
-}
-
-#main_content .info {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 12px;
-  margin-top: 10px;
-}
-
 #footer {
   position: absolute;
   bottom: 0;
